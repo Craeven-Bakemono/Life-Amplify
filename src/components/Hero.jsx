@@ -1,5 +1,7 @@
 import React from 'react';
 import { AFFILIATE_LINK } from '../config/constants';
+import demoVideo from "../assets/hero-video.mp4";
+
 
 const Hero = () => {
   return (
@@ -10,7 +12,8 @@ const Hero = () => {
       {/* Replace hero-video.mp4 with a demo video */}
       <video
         className="mx-auto mb-6 w-3/4 rounded-lg shadow-lg"
-        src="/hero-video.mp4"
+        // src="../assets/hero-video.mp4"
+         src={demoVideo} type="video/mp4" 
         autoPlay
         loop
         muted

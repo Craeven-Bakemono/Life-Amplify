@@ -1,6 +1,6 @@
 import React from 'react';
-import testimonial1 from '../../public/testimonial1.jpg';
-import testimonial2 from '../../public/testimonial2.jpg';
+import testimonial1 from "../assets/testimonial1.jpg"
+import testimonial2 from "../assets/testimonial2.jpg"
 
 const Testimonials = () => {
   return (

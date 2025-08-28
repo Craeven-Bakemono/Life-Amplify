@@ -1,5 +1,5 @@
 import React from 'react';
-import productImage from '../../public/product-image.webp'; // replace with actual product image
+import productImage from '../assets/product-image.webp'; // replace with actual product image
 
 const SolutionFeatures = () => {
   return (
